@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="AD.ORM.NHibernate.Tests" namespace="AD.ORM.NHibernate.Tests" default-lazy="false">
+  <typedef name="CityType" class="AD.ORM.NHibernate.Tests.CityType, AD.ORM.NHibernate.Tests" />
+  <typedef name="BrandType" class="AD.ORM.NHibernate.Tests.BrandType, AD.ORM.NHibernate.Tests" />
+  
+  <class name="Citizen" table="Citizen">
+    <id type="int">
+      <generator class="hilo" />
+    </id>
+    <property name="FullName" type="string" />
+    <property name="City" type="CityType" />
+    <property name="TVBrand" type="BrandType" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="AD.ORM.NHibernate.Tests" namespace="AD.ORM.NHibernate.Tests" default-lazy="false">
+  <typedef name="SizeType" class="AD.ORM.NHibernate.Tests.SizeType, AD.ORM.NHibernate.Tests" />
+  
+  <class name="Dress" table="Dress">
+    <id type="int">
+      <generator class="hilo" />
+    </id>
+    <property name="Description" type="string" />
+    <property name="Size" type="SizeType" />
+  </class>
+</hibernate-mapping>

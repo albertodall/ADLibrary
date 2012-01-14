@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="AD.ORM.NHibernate.Tests" namespace="AD.ORM.NHibernate.Tests.IdGenerators" default-lazy="false">
+  <class name="City" table="City">
+    <id name="Id" column="Id" type="int">
+      <generator class="AD.ORM.NHibernate.TableHiLoPerEntityGenerator, AD.ORM.NHibernate">
+        <param name="table">HiLoTable</param>
+        <param name="column">NextId</param>
+        <param name="where">TableName='City'</param>
+        <param name="entity_column">TableName</param>
+        <param name="entity_rows">Person,City</param>
+        <param name="max_lo">10</param>
+      </generator>
+    </id>
+    <property name="Name" type="string" />
+  </class>
+</hibernate-mapping>
