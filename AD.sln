@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectMapping", "ObjectMapp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AD.ObjectMapping.AutoMapper", "AD.AutoMapper\AD.ObjectMapping.AutoMapper.csproj", "{BBE36A1C-3CCB-464C-9DAE-D5BA0DC51B5E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{E1170F2A-6C16-4029-93D1-C4F42B9887F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AD.Math", "AD.Math\AD.Math.csproj", "{CD5D3300-0DB7-47FB-A94F-E515318956E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{BBE36A1C-3CCB-464C-9DAE-D5BA0DC51B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE36A1C-3CCB-464C-9DAE-D5BA0DC51B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE36A1C-3CCB-464C-9DAE-D5BA0DC51B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5D3300-0DB7-47FB-A94F-E515318956E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5D3300-0DB7-47FB-A94F-E515318956E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5D3300-0DB7-47FB-A94F-E515318956E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5D3300-0DB7-47FB-A94F-E515318956E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +122,7 @@ Global
 		{DBC2F041-58B5-4C01-8FE6-7AC5CD456DD8} = {5E4083F4-11F2-4A2C-AD0E-675F5F4F15F1}
 		{5F976220-FF55-4BEC-8557-72539D4DE1E4} = {5E4083F4-11F2-4A2C-AD0E-675F5F4F15F1}
 		{BBE36A1C-3CCB-464C-9DAE-D5BA0DC51B5E} = {27BF735F-CC4D-483B-A4BD-868766E62C76}
+		{CD5D3300-0DB7-47FB-A94F-E515318956E1} = {E1170F2A-6C16-4029-93D1-C4F42B9887F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = Libs\Unity.2.1.505.0\lib\NET35
