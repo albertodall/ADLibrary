@@ -10,12 +10,15 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AD.ORM.NHibernate.Tests</RootNamespace>
     <AssemblyName>AD.ORM.NHibernate.Tests</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\ADLibrary\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,34 +39,31 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Iesi.Collections">
-      <HintPath>..\Libs\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+      <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\Libs\log4net.1.2.11\lib\net35-full\log4net.dll</HintPath>
+      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
-      <HintPath>..\Libs\NHibernate.3.2.0.4000\lib\Net35\NHibernate.dll</HintPath>
+      <HintPath>..\packages\NHibernate.3.2.0.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>..\Libs\NUnit.2.5.10.11092\lib\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.mocks">
-      <HintPath>..\Libs\NUnit.2.5.10.11092\lib\nunit.mocks.dll</HintPath>
-    </Reference>
-    <Reference Include="pnunit.framework">
-      <HintPath>..\Libs\NUnit.2.5.10.11092\lib\pnunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.0.12054\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="SharpTestsEx">
-      <HintPath>..\Libs\SharpTestsEx.1.1.1\lib\SharpTestsEx.dll</HintPath>
+      <HintPath>..\packages\SharpTestsEx.1.1.1\lib\SharpTestsEx.dll</HintPath>
     </Reference>
     <Reference Include="SharpTestsEx.Mvc">
-      <HintPath>..\Libs\SharpTestsEx.1.1.1\lib\SharpTestsEx.Mvc.dll</HintPath>
+      <HintPath>..\packages\SharpTestsEx.1.1.1\lib\SharpTestsEx.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\packages\SQLitex64.1.0.66\lib\32\System.Data.SQLite.DLL</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -110,10 +110,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /y "$(SolutionDir)Libs\NHibernate\NHibernate.ByteCode.Castle.*" "$(TargetDir)"
-copy /y "$(SolutionDir)Libs\SQLite\x64\System.Data.SQLite.dll" "$(TargetDir)"
-copy /y "$(SolutionDir)Libs\SQLite\sqlite3.dll" "$(TargetDir)"</PostBuildEvent>
+    <PostBuildEvent>rem copy /y "$(SolutionDir)Libs\NHibernate\NHibernate.ByteCode.Castle.*" "$(TargetDir)"
+rem copy /y "$(SolutionDir)Libs\SQLite\x64\System.Data.SQLite.dll" "$(TargetDir)"
+rem copy /y "$(SolutionDir)Libs\SQLite\sqlite3.dll" "$(TargetDir)"</PostBuildEvent>
   </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

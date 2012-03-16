@@ -6,7 +6,7 @@
 		<property name="dialect">NHibernate.Dialect.SQLiteDialect</property>
 		<property name="connection.connection_string">Data Source=ad_orm_nhibernate_tests.db;Version=3;New=True;</property>
 		<property name="show_sql">true</property>
-		<property name="proxyfactory.factory_class">NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle</property>
+		<!--<property name="proxyfactory.factory_class">NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle</property>-->
 		<property name="prepare_sql">true</property>
 		<property name="generate_statistics">true</property>
 		<property name="query.substitutions">true 1, false 0, yes 1, no 0</property>
