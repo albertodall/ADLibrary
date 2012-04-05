@@ -6,7 +6,7 @@ using Castle.MicroKernel.Lifestyle;
 
 namespace AD.IoC.Windsor
 {
-    public class HybridLifeStyleManager : ILifestyleManager
+    public class HybridLifeStyleManager : AbstractLifestyleManager
     {
         private readonly ILifestyleManager _currentLifestyleManager;
 
@@ -14,30 +14,30 @@ namespace AD.IoC.Windsor
         {
             if (HttpContext.Current != null)
             {
-                _currentLifestyleManager = new PerWebRequestLifestyleManager();
+                _currentLifestyleManager = new ScopedLifestyleManager(new WebRequestScopeAccessor());
             }
             else
             {
-                _currentLifestyleManager = new PerThreadLifestyleManager();
+                _currentLifestyleManager = new ScopedLifestyleManager(new ThreadScopeAccessor());
             }
         }
 
-        public void Init(IComponentActivator componentActivator, IKernel kernel, ComponentModel model)
+        public override void Init(IComponentActivator componentActivator, IKernel kernel, ComponentModel model)
         {
             _currentLifestyleManager.Init(componentActivator, kernel, model);
         }
 
-        public object Resolve(CreationContext context)
-        {
-            return _currentLifestyleManager.Resolve(context);
-        }
-
-        public bool Release(object instance)
+        public override bool Release(object instance)
         {
             return _currentLifestyleManager.Release(instance);
         }
 
-        public void Dispose()
+        public override object Resolve(CreationContext context, IReleasePolicy releasePolicy)
+        {
+            return _currentLifestyleManager.Resolve(context, releasePolicy);
+        }
+
+        public override void Dispose()
         {
             _currentLifestyleManager.Dispose();
         }

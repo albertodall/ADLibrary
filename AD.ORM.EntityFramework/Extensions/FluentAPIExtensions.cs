@@ -8,7 +8,7 @@ using System.Reflection;
 namespace AD.ORM.EntityFramework.Extensions
 {
     /// <summary>
-    /// extension methods that help FluentAPI mapping IEnumerable decalred child collections.
+    /// Extension methods that help FluentAPI mapping IEnumerable declared child collections.
     /// </summary>
     public static class FluentAPIExtensions
     {
