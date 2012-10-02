@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModel", "DomainModel", "{A95EBA5A-B93F-4BA6-9C8D-6FB340F84D73}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsForms", "WindowsForms", "{9E864781-73FA-416F-86EF-174278B04234}"
@@ -131,6 +131,6 @@ Global
 		{CD5D3300-0DB7-47FB-A94F-E515318956E1} = {E1170F2A-6C16-4029-93D1-C4F42B9887F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = Libs\Unity.2.1.505.0\lib\NET35;packages\Unity.2.1.505.0\lib\NET35
+		EnterpriseLibraryConfigurationToolBinariesPath = Libs\Unity.2.1.505.0\lib\NET35;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
