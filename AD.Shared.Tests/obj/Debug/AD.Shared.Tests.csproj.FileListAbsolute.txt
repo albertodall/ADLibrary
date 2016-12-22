@@ -1,0 +1,10 @@
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\obj\Debug\AD.Shared.Tests.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\bin\Debug\AD.Shared.Tests.dll
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\bin\Debug\AD.Shared.Tests.pdb
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\bin\Debug\AD.Shared.dll
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\bin\Debug\nunit.framework.dll
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\bin\Debug\SharpTestsEx.dll
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\bin\Debug\AD.Shared.pdb
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\bin\Debug\nunit.framework.xml
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\obj\Debug\AD.Shared.Tests.dll
+D:\Programming\GitHub\ADLibrary\AD.Shared.Tests\obj\Debug\AD.Shared.Tests.pdb

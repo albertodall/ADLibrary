@@ -1,0 +1,5 @@
+D:\Programming\GitHub\ADLibrary\AD.Math\bin\Debug\AD.Math.dll
+D:\Programming\GitHub\ADLibrary\AD.Math\bin\Debug\AD.Math.pdb
+D:\Programming\GitHub\ADLibrary\AD.Math\obj\Debug\AD.Math.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\ADLibrary\AD.Math\obj\Debug\AD.Math.dll
+D:\Programming\GitHub\ADLibrary\AD.Math\obj\Debug\AD.Math.pdb

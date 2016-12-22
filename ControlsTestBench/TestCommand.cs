@@ -19,5 +19,10 @@ namespace AD.Windows.Forms.Controls
         {
             MessageBox.Show(@"Clicked!");
         }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

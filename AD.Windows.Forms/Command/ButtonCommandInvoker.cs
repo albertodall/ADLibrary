@@ -1,8 +1,8 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace AD.Windows.Forms.Command
+﻿namespace AD.Windows.Forms.Command
 {
+    using System;
+    using System.Windows.Forms;
+
     /// <summary>
     /// Invoca un "Command" da un controllo "Button".
     /// </summary>

@@ -1,0 +1,4 @@
+D:\Programming\GitHub\ADLibrary\AD.DomainModel\bin\Debug\AD.DomainModel.dll
+D:\Programming\GitHub\ADLibrary\AD.DomainModel\bin\Debug\AD.DomainModel.pdb
+D:\Programming\GitHub\ADLibrary\AD.DomainModel\obj\Debug\AD.DomainModel.dll
+D:\Programming\GitHub\ADLibrary\AD.DomainModel\obj\Debug\AD.DomainModel.pdb

@@ -1,6 +1,7 @@
 ﻿using System.Data;
-using Iesi.Collections;
 using NHibernate.Connection;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace AD.ORM.NHibernate.Tests
 {
@@ -11,11 +12,11 @@ namespace AD.ORM.NHibernate.Tests
     /// </summary>
     public class DebugConnectionProvider : DriverConnectionProvider
     {
-        private readonly ISet _connections;
+        private readonly System.Collections.Generic.ISet<IDbConnection> _connections;
 
         public DebugConnectionProvider()
         {
-            _connections = new ListSet();
+            _connections = new HashSet<IDbConnection>();
         }
 
         public override IDbConnection GetConnection()
@@ -38,7 +39,7 @@ namespace AD.ORM.NHibernate.Tests
                 // check to see if all connections that were at one point opened
                 // have been closed through the CloseConnection
                 // method
-                if (_connections.IsEmpty)
+                if (!_connections.Any())
                 {
                     // there are no connections, either none were opened or
                     // all of the closings went through CloseConnection.
@@ -66,7 +67,7 @@ namespace AD.ORM.NHibernate.Tests
 
         public void CloseAllConnections()
         {
-            while (!_connections.IsEmpty)
+            while (_connections.Any())
             {
                 var en = _connections.GetEnumerator();
                 en.MoveNext();

@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using AD.Shared.Collections;
-using AD.Shared.Extensions;
-using NUnit.Framework;
-using SharpTestsEx;
-
-namespace AD.Shared.Tests
+﻿namespace AD.Shared.Tests
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using Collections;
+    using Extensions;
+    using NUnit.Framework;
+    using SharpTestsEx;
+
     [TestFixture]
     public class PagedListFixture
     {
@@ -18,7 +18,7 @@ namespace AD.Shared.Tests
         private PagedList<int> _fifthPage;
         private PagedList<int> _lastPage;
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void TestFixtureSetUp()
         {
             _source = Enumerable.Range(1, ITEMS_COUNT);

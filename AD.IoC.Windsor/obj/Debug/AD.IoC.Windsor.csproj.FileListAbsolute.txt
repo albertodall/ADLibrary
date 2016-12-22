@@ -1,0 +1,11 @@
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\AD.IoC.Windsor.dll
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\AD.IoC.Windsor.pdb
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\Castle.Core.dll
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\Castle.Windsor.dll
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\Castle.Core.xml
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\Castle.Windsor.xml
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\obj\Debug\AD.IoC.Windsor.dll
+D:\Programming\GitHub\ADLibrary\AD.IoC.Windsor\obj\Debug\AD.IoC.Windsor.pdb

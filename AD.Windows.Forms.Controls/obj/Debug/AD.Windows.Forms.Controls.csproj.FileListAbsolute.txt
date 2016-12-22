@@ -1,0 +1,6 @@
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms.Controls\bin\Debug\AD.Windows.Forms.Controls.dll
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms.Controls\bin\Debug\AD.Windows.Forms.Controls.pdb
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms.Controls\obj\Debug\AD.Windows.Forms.Controls.VirtualEarthMap.resources
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms.Controls\obj\Debug\AD.Windows.Forms.Controls.csproj.GenerateResource.Cache
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms.Controls\obj\Debug\AD.Windows.Forms.Controls.dll
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms.Controls\obj\Debug\AD.Windows.Forms.Controls.pdb

@@ -1,10 +1,10 @@
-﻿using System;
-using AD.Shared.Extensions;
-using NUnit.Framework;
-using SharpTestsEx;
-
-namespace AD.Shared.Tests
+﻿namespace AD.Shared.Tests
 {
+    using System;
+    using Extensions;
+    using NUnit.Framework;
+    using SharpTestsEx;
+
     [TestFixture]
     public class ObjectExtensionsFixture
     {
@@ -18,11 +18,10 @@ namespace AD.Shared.Tests
         }
 
         [Test]
-        [ExpectedException(typeof(InvalidOperationException))]
         public void CloneNonSerializabledObject_ThrowException()
         {
             NonSerializablePerson p1 = new NonSerializablePerson { FirstName = "Alberto", LastName = "Dallagiacoma" };
-            p1.Clone<NonSerializablePerson>();
+            Assert.Throws<InvalidOperationException>(() => p1.Clone<NonSerializablePerson>());
         }
 
         [Test]

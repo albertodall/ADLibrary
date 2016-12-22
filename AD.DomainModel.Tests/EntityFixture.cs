@@ -41,12 +41,6 @@ namespace AD.DomainModel.Tests
         }
 
         [Test]
-        public void ClassiEreditateConLoStessoIdSonoUguali()
-        {
-            EntityStubInherit.NewWithId(1).Should().Be.EqualTo(DomainObjectStub.NewWithId(1));
-        }
-
-        [Test]
         [Description("Anche se cambia l'Id, l'HashCode non cambia")]
         public void HashNonCambiaCambiandoId()
         {
@@ -67,10 +61,6 @@ namespace AD.DomainModel.Tests
             DomainObjectStub.NewWithId(ID1).GetHashCode()
                 .Should("oggetti persistenti devono avere lo stesso hash.")
                 .Be.EqualTo(DomainObjectStub.NewWithId(ID1).GetHashCode());
-
-            DomainObjectStub.NewWithId(ID1).GetHashCode()
-                .Should("oggetti persistenti con ereditarietà devono avere lo stesso hash.")
-                .Be.EqualTo(EntityStubInherit.NewWithId(ID1).GetHashCode());
         }
 
     }
@@ -97,14 +87,6 @@ namespace AD.DomainModel.Tests
         public static EntityStubA NewWithId(int id)
         {
             return new EntityStubA { Id = id };
-        }
-    }
-
-    public class EntityStubInherit : DomainObjectStub
-    {
-        public new static EntityStubInherit NewWithId(int id)
-        {
-            return new EntityStubInherit { Id = id };
         }
     }
 }

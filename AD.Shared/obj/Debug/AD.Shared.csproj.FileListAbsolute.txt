@@ -1,0 +1,4 @@
+D:\Programming\GitHub\ADLibrary\AD.Shared\bin\Debug\AD.Shared.dll
+D:\Programming\GitHub\ADLibrary\AD.Shared\bin\Debug\AD.Shared.pdb
+D:\Programming\GitHub\ADLibrary\AD.Shared\obj\Debug\AD.Shared.dll
+D:\Programming\GitHub\ADLibrary\AD.Shared\obj\Debug\AD.Shared.pdb

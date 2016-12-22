@@ -1,0 +1,4 @@
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms\bin\Debug\AD.Windows.Forms.dll
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms\bin\Debug\AD.Windows.Forms.pdb
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms\obj\Debug\AD.Windows.Forms.dll
+D:\Programming\GitHub\ADLibrary\AD.Windows.Forms\obj\Debug\AD.Windows.Forms.pdb

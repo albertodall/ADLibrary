@@ -1,0 +1,10 @@
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\bin\Debug\AD.DomainModel.Tests.dll
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\bin\Debug\AD.DomainModel.Tests.pdb
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\bin\Debug\AD.DomainModel.dll
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\bin\Debug\nunit.framework.dll
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\bin\Debug\SharpTestsEx.dll
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\bin\Debug\AD.DomainModel.pdb
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\bin\Debug\nunit.framework.xml
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\obj\Debug\AD.DomainModel.Tests.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\obj\Debug\AD.DomainModel.Tests.dll
+D:\Programming\GitHub\ADLibrary\AD.DomainModel.Tests\obj\Debug\AD.DomainModel.Tests.pdb

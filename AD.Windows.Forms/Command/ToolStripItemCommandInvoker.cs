@@ -1,10 +1,10 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace AD.Windows.Forms.Command
+﻿namespace AD.Windows.Forms.Command
 {
+    using System;
+    using System.Windows.Forms;
+
     /// <summary>
-    /// Invoca un "Command" da un controllo ToolStrip (menù o toolbar)
+    /// Invoca un "Command" da un controllo ToolStrip (menu o toolbar)
     /// </summary>
     public class ToolStripItemCommandInvoker : CommandInvoker
     {

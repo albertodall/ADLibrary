@@ -54,7 +54,7 @@ namespace AD.ORM.NHibernate.Tests
         }
 
         [Test]
-        [Ignore]
+        [Ignore("Still in progress")]
         public void ReadPersonsInPagedModeUsingCriteria()
         {
             int pageIndex = 0;

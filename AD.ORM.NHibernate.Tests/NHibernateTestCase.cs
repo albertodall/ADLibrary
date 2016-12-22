@@ -47,7 +47,7 @@ namespace AD.ORM.NHibernate.Tests
 		/// <summary>
 		/// Creates the tables used in this TestCase
 		/// </summary>
-		[TestFixtureSetUp]
+		[OneTimeSetUp]
 		public void TestFixtureSetUp()
 		{
 			try
@@ -72,7 +72,7 @@ namespace AD.ORM.NHibernate.Tests
 		/// will occur if the TestCase does not have the same hbm.xml files
 		/// included as a previous one.
 		/// </remarks>
-		[TestFixtureTearDown]
+		[OneTimeTearDown]
 		public void TestFixtureTearDown()
 		{
 			DropSchema();

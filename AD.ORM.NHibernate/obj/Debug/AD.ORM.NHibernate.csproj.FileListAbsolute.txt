@@ -1,0 +1,11 @@
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\AD.ORM.NHibernate.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\AD.ORM.NHibernate.pdb
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\AD.Shared.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\Iesi.Collections.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\NHibernate.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\AD.Shared.pdb
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\Iesi.Collections.xml
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\bin\Debug\NHibernate.xml
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\obj\Debug\AD.ORM.NHibernate.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\obj\Debug\AD.ORM.NHibernate.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.NHibernate\obj\Debug\AD.ORM.NHibernate.pdb

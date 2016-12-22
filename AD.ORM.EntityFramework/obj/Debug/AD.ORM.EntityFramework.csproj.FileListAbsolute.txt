@@ -1,0 +1,12 @@
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\obj\Debug\AD.ORM.EntityFramework.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\AD.ORM.EntityFramework.dll.config
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\AD.ORM.EntityFramework.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\AD.ORM.EntityFramework.pdb
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\AD.DomainModel.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\EntityFramework.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\AD.DomainModel.pdb
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\EntityFramework.xml
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\obj\Debug\AD.ORM.EntityFramework.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\obj\Debug\AD.ORM.EntityFramework.pdb
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\GitHub\ADLibrary\AD.ORM.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
